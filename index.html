@@ -7,9 +7,10 @@
     <link rel="icon" href="image.png">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header desktop">
         <a href="https://folioassignment.netlify.app/" class="logo"><span>Port</span>folio</a>
 
         <nav class="navbar">
@@ -21,6 +22,24 @@
         <a href="https://wa.me/+919053476809" class="contact">WhatsApp</a>
     </header>
 
+
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="https://folioassignment.netlify.app/" class="logo"><span>Port</span>folio</a>
+          <div id="myLinks">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact-form">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+</div>
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hi</h3>
@@ -78,7 +97,7 @@
 
     <footer class="footer">
         <div class="social">
-            <a href="https://instagram.com/kamal._arora._?igshid=YmMyMTA2M2Y="><i class='bx bxl-instagram'></i></a>
+            <a href="https://instagram.com/kamal.arora.?igshid=YmMyMTA2M2Y="><i class='bx bxl-instagram'></i></a>
             <a href="https://www.linkedin.com/in/kamal-arora-3252a6203/"><i class='bx bxl-linkedin'></i></a>
             <a href="https://github.com/aroraKamal22"><i class='bx bxl-github'></i></a>
             <a href="https://t.me/+919053476809"><i class='bx bxl-telegram'></i></a>
@@ -92,25 +111,17 @@
         </ul> -->
         <p class="copyright">@ 2024 Kamal | All Rights Reserved</p>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
